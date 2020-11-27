@@ -6,13 +6,12 @@
 <div>
     {{error}}
 </div>
-
 {{/if}}
 
 
-<form action="/login" method="POST">
+<form action="/register" method="POST">
+    <input type="text" placeholder="username" name="username">
     <input type="email" placeholder="email" name="email">
     <input type="password" placeholder="password" name="password">
-    <button type="submit">login</button>
+    <button type="submit">register</button>
 </form>
-
